@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeCafe</title>
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="preloader__row">
+          <div class="preloader__item"></div>
+          <div class="preloader__item"></div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+          document.body.classList.add('loaded_hiding');
+          window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+          }, 500);
+        }
+    </script>
+
+
+
+<div class='header'>
+    <div class='container'>
+        <div class='header-line'>
+            <div class='header-logo'>
+                <img src="logo.png" alt="">
+            </div>
+
+            <div class='nav'>
+                <a class='nav-item' href="@">О НАС</a>
+                <a class='nav-item' href="@">КОФЕ</a>
+                <a class='nav-item' href="index2.html">ГАЛЕРЕЯ</a>
+            </div>
+
+            <div class='cart'>
+                <a href="#">
+                    
+                </a>
+            </div>
+
+            <div class='phone'>
+                <div class='phone-holder'>
+                     <div class='number'><a class='num' href='#'>+999-888-76-54</a></div>
+                </div>
+
+                <div class='phone-text'>
+                    Свяжитесь с нами если <br> остались вопросы
+                </div>
+            </div>
+
+            <div class='burger-menu'>
+
+                <button id='burger'>
+                    <img src="burger-img.png" alt="">
+                </button>
+
+                <div id='menu' class='burger-slide disp'>
+                    <a class='nav-item block' href="@">ГЛАВНАЯ</a>
+                    <a class='nav-item block' href="@">КОФЕ</a>
+                    <a class='nav-item block' href="@">О НАС</a>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <div class='header-down'>
+
+            <div class='header-title'>
+                LeCafe
+
+                <div class='header-suptitle'>
+                    Варим тута, продаём здеся
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class='cards'>
+
+    <div class='container'>
+
+       <div class='cards-holder'>
+
+            <div class='card'>
+
+                <div class='card-image'>
+                    <img class='card-img' src='card.png'>
+                </div>
+
+                <div class='card-title'>
+                    <span>Атмосфера</span>
+                </div>
+
+                <div class='card-desc'>
+                    Наша кофейня подойдёт не только для уютного завтрака, но и для долгожданной встречи с друзьями
+                </div>
+
+            </div>
+
+            <div class='card'>
+
+                <div class='card-image'>
+                    <img class='card-img' src='card.png'>
+                </div>
+
+                <div class='card-title'>
+                    <span>Доступность</span>
+                </div>
+
+                <div class='card-desc'>
+                    Наши цены приятно удивят Вас и вашу компанию!
+
+                </div>
+
+            </div>
+
+            <div class='card'>
+
+                <div class='card-image'>
+                    <img class='card-img' src='card.png'>
+                </div>
+
+                <div class='card-title'>
+                     <span>Качество</span>
+                </div>
+
+                <div class='card-desc'>
+                    Мы используем самие изысканные сорта кофе и исключительно натуральные и свежие продукты
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class='black-block'>
+    <div class='history'>
+
+        <div class='container'>
+
+            <div class='history-holder'>
+                <div class='history-info'>
+                    <div class='history-title'>
+                        Услуги <span>LeCafe</span>
+                    </div>
+
+                    <div class='history-desc'>
+                        Задача нашего заведения превратить Ваш перекус в гастрономическое путешествие, во время которого вы сможете настроиться на продуктивный день, отдохнуть от рабочих забот или провести время за душевной беседой с близкими. Помимо этого мы предоставляем скидки при единовременном заказе на компанию или в Ваш День Рождения
+                    </div>
+
+
+                    <div class='history-number'>
+                        <div class='number-item'>
+                            26 <span>Сортов кофе</span>
+                        </div>
+
+                        <div class='number-item'>
+                            20% <span>Скидка имениннику</span>
+                        </div>
+
+                        <div class='number-item'>
+                            <span>Меняем</span> МЕНЮ <span>Еженедельно</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class='history-images'>
+                    <img class='imgages-1' src="1.png" alt="">
+            </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
+    <div class='container'>
+
+        <div class='block-holder'>
+            <div class='left'>
+                <div class='left-title'>
+                    <br>
+                    
+                    Вы можете приобрести у нас <br> самых лучшие кофейные зёрна
+                </div>
+
+                
+            </div>
+
+            <div class='right'>
+                <div class='right-button'>
+                    <a href='#' class='right-btn'>СВЯЗАТЬСЯ</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+<div class='dishes'>
+
+    <div class='container'>
+
+        <div class='dishes-title'>
+            <span>АССОРТИМЕНТ</span>
+        </div>
+
+        <div class='cofe'>
+            <div class='cofe-image'>
+                <img src='cofe.png' class='pizza'>
+            </div>
+
+            <div class='cofe-items'>
+                <div class='cofe-item'>
+                    <img src="coffe.png" class=''>
+                    <div class='cofe-text'>
+                        АРАБИКА (Мокка)................1999 ₽
+                        АРАБИКА (Мокка) 500г.......<span>699</span>₽
+                    </div>
+                </div>
+
+                <div class='cofe-item'>
+                    <img src="coffe.png" class=''>
+                    <div class='cofe-text'>
+                        АРАБИКА (Катурра) 1000г..............1599 ₽
+                        АРАБИКА (Катурра) 500г................<span>599</span>₽
+                    </div>
+                </div>
+
+                <div class='cofe-item'>
+                    <img src="coffe.png" class=''>
+                    <div class='cofe-text'>
+                        АРАБИКА (Марагоджип)..............2199 ₽
+                        АРАБИКА (Марагоджип) 500г......<span>799</span>₽
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+  <section id="home">
+    <div class="slider">
+      <div class="slider-container">
+        <img src="viev.png" alt="Слайд 1" />
+        <img src="viev2.png" alt="Слайд 2" />
+        <img src="viev3.png" alt="Слайд 3" />
+      </div>
+      <button class="slider-button prev">&lt;</button>
+      <button class="slider-button next">&gt;</button>
+    </div>
+  </section>
+
+
+
+
+
+  <section class="section">
+    <h2>Свяжитесь со мной</h2>
+    <form id="contact-form">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Отправить</button>
+    </form>
+    <p id="response-message"></p>
+</section>
+<script>
+    // Функция для автоматической подстройки высоты textarea
+    const textarea = document.getElementById("message");
+
+    textarea.addEventListener("input", function () {
+        this.style.height = "auto"; // Сбрасываем высоту
+        this.style.height = this.scrollHeight + "px"; // Устанавливаем новую высоту на основе содержимого
+    });
+
+    // Инициализация EmailJS
+    emailjs.init("Slse7ta70sKBuFYr-"); // Укажите свой User ID из EmailJS
+
+    // Обработчик отправки формы
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault(); // Отменяем стандартное поведение формы
+
+        const serviceID = "service_slod87j"; // Вставьте свой Service ID
+        const templateID = "template_ip83usv"; // Вставьте свой Template ID
+
+        emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+                document.getElementById("response-message").textContent = "Сообщение успешно отправлено!";
+                this.reset(); // Очищаем форму
+            }, (err) => {
+                document.getElementById("response-message").textContent = "Ошибка при отправке сообщения. Попробуйте позже.";
+                console.error("Ошибка:", err);
+            });
+    });
+</script>     
+
+
+
+
+
+
+
+<div class='footer'>
+    Хиханьки да хахоньки права защитили, чессна
+</div>
+
+
+<script src='app.js'></script>
+<script src="script.js"></script>
+</body>
+</html>
